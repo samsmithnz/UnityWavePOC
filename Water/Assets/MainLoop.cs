@@ -37,7 +37,7 @@ public class MainLoop : MonoBehaviour
             waterParticle3.transform.GetComponent<Renderer>().material = WaterMaterial;
             waterList.Add(waterParticle3);
         }
-        position = (int)(1f - 49.5f);
+        position = 0;
     }
 
     // Update is called once per frame
